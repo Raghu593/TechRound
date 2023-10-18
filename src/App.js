@@ -16,6 +16,8 @@ function App() {
   //Using useref instead of usestate is better solution because usestate causes re renders on every 
   //key stroke when typing email, password as it changes state useref don't cause rerenders like that.
 
+  //Using Useref one can access realdom instead of doing it through virtual dom
+
 
   //Strict mode causes component to unmount and mount when the first time loading (this behaviousr happens only on development mode)
 
@@ -28,6 +30,7 @@ function App() {
 
   //Use of strictmode is to check to detect problems early in the application during development.
 
+  //
 
   useEffect(() => {
                 //Changed useEffect to Run Only Once 
